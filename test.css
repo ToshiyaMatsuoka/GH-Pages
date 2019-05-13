@@ -1,0 +1,137 @@
+h1.ABC{
+color: red;
+font-size:40px;
+    font-family: "",fantasy;
+font-style: italic;
+text-align: center;
+}
+h1.DEF{
+    color:silver;
+}
+#hhh {
+    color:fuchsia;
+}
+h1:nth-child(5){
+    color:lightgreen;
+}
+h2{
+color: red;
+    background-color:gold;
+font-size:40px;
+padding: 10px,60px,10px,30px;
+}
+h3{
+color:cornflowerblue;
+font-size: 25px;
+}
+body{
+background-image:url("../../Pictures/desert.jpg");
+}
+p{
+background-color:yellow;
+margin:130px,60px,150px,30px;
+}
+.border_test{
+    position: relative;
+    border-radius:10px;
+    width:100px;
+    height:100px;
+    background-color:green;
+    display:inline-block;
+    margin: 10px;
+}
+.parent{
+    /* position:relative; */
+    left:300px;
+    top: 500px;
+    border-radius:10px;
+    width:1000px;
+    height:1000px;
+    background-color:deepskyblue;
+    display:inline-block;
+    margin: 10px;}
+.fixed{
+    position:absolute;
+    border-radius:30px;
+    right:300px;
+    /* bottom: 100px; */
+    width:50px;
+    height:50px;
+    background-color:red;
+    display:inline-block;
+    margin: 10px;
+}
+.nonfloat{
+width: 300px;
+background-color:pink;
+justify-content:space-between;
+}
+.float{
+width: 200px;
+background-color:yellow;
+justify-content:space-between	;
+}
+.child{
+    height: 100px;
+}
+.hover_test{
+    width: 100px;
+    height: 100px;
+    background-color: violet;
+}
+.hover_test:hover{
+    width: 300px;
+    height: 300px;
+color: aquamarine;
+border-radius:30px;
+}
+.before{
+    position: absolute;
+    right:500px;
+    /* z-index: -1; */
+    color:gold;
+    background:rgba(0, 0, 0, 0) linear-gradient(transparent 60%,#FFAFEF 100%);
+}
+/*.befoe::before{
+    content: "";
+    position: absolute;
+    bottom:0%;
+    width:100%;
+    height: 50%;
+    z-index: 0;
+    /* background-color:#443388AA;    
+}*/
+.big{
+ width: 70%;
+ height:600px;
+}
+.middle{
+ width: 30%;
+ height: 320px;
+   }
+.small{
+ width: 15%;
+ height: 200px;
+}
+.content{
+
+    width:100%;
+    height: 100%;
+}
+.content:hover{
+    font-size:200%;
+    color: gold;
+}
+.parents{
+    padding:15px;
+float: left;
+box-sizing:border-box;
+}
+.green{
+    background:rgba(0,255,0,0.3);
+    /* background:rgba(0, 0, 0, 0) linear-gradient(transparent 60%,rgb(42, 235, 3) 100%); */
+}
+.blue{
+    /* background-color: blue; */
+    background:rgba(0, 0, 0, 0) linear-gradient(transparent -50%,rgb(73, 3, 235) 100%);
+}
